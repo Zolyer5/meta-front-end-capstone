@@ -1,8 +1,8 @@
-
+import './Nav.css';
 
 function Nav() { 
     return ( 
-        <nav>
+        <nav className="container nav-bar-links">
             <img></img>
             <ul>
                 <li><a>Home</a></li>
