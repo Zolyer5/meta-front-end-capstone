@@ -1,9 +1,10 @@
 import './Nav.css';
+import logo from '/assets/restaurant.jpg'
 
 function Nav() { 
     return ( 
         <nav className="navbar">
-            <img src="restaurant.jpg" alt="The logo of the company"/>
+            <img src={logo} alt="The logo of the company"/>
             <ul className="nav-links">
                 <li><a>Home</a></li>
                 <li><a>About</a></li>
