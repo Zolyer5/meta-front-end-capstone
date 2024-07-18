@@ -2,9 +2,9 @@ import './Nav.css';
 
 function Nav() { 
     return ( 
-        <nav className="container nav-bar-links">
-            <img></img>
-            <ul>
+        <nav className="navbar">
+            <img className="logo" src="../../../Assets/Logo.svg" alt="The logo of the company"/>
+            <ul className="nav-links">
                 <li><a>Home</a></li>
                 <li><a>About</a></li>
                 <li><a>Menu</a></li>
