@@ -1,5 +1,5 @@
 import './Nav.css';
-import logo from '/assets/restaurant.jpg'
+import logo from '../assets/logo.svg'
 
 function Nav() { 
     return ( 
@@ -13,6 +13,11 @@ function Nav() {
                 <li><a>Order Online</a></li>
                 <li><a>Login</a></li>
             </ul>
+            <div class="menu-toggle">
+                 <span></span>
+                 <span></span>
+                 <span></span>
+            </div>
         </nav> 
     ) 
   } 
